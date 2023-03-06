@@ -6,6 +6,3 @@ def palindrome(str):
 str = "wow"
 answer = palindrome(str)
 print(palindrome(str))
-
-
-
