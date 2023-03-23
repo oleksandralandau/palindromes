@@ -1,8 +1,9 @@
-def palindrome(str):
-    rev = ''.join(reversed(str))
-    if (str == rev):
+def palindrome(word):
+    if word == word[::-1]:
         return True
     return False
-str = "wow"
-answer = palindrome(str)
-print(palindrome(str))
+
+
+word = "wow"
+answer = palindrome(word)
+print(palindrome(word))
